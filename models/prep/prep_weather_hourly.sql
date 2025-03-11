@@ -4,12 +4,12 @@ WITH daily_data AS (
 ),
 add_features AS (
     SELECT *
-		, ... AS date_day 		-- number of the day of month
-		, ... AS date_month 	-- number of the month of year
-		, ... AS date_year 		-- number of year
-		, ... AS cw 			-- number of the week of year
-		, ... AS month_name 	-- name of the month
-		, ... AS weekday 		-- name of the weekday
+		, AS date_day 		-- number of the day of month
+		, AS date_month 	-- number of the month of year
+		, AS date_year 		-- number of year
+		, AS cw 			-- number of the week of year
+		, AS month_name 	-- name of the month
+		, AS weekday 		-- name of the weekday
     FROM daily_data 
 ),
 add_more_features AS (
