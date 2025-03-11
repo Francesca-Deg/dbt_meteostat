@@ -1,4 +1,3 @@
-DATE_PART('day', date) AS date_day
 WITH daily_data AS (
     SELECT * 
     FROM staging_weather_daily
